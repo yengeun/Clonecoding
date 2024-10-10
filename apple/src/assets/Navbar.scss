@@ -2,23 +2,24 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 1px 50px;
-    background-color: #fafafc;
     font-family: 'Pretendard-Regular';
     
-  
-    .navbar-logo {
-      margin-left: 10%;
-      font-size: 20px;
-      
-    }
   
     .navbar-menu ul {
       display: flex;
       list-style: none;
-      gap: 50px;
+      gap: 10px;
       
-      
+      li {
+    
+        &:last-child {
+          margin-left: 0; /* No margin after the last item */
+        }
+    
+        &:nth-last-child(2) {
+          margin-left: 0px; /* Reduce the gap for the second-last item */
+        }
+      }
   
       li a {
         text-decoration: none;
@@ -31,12 +32,6 @@
       }
     }
   
-    .icon {
-      display: flex;
-      gap: 50px;
-      font-size: 20px;
-      list-style: none;
-      margin-right:10% ;
-    }
+
 }
   

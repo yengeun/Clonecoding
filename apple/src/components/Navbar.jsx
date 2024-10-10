@@ -8,11 +8,9 @@ import '../assets/common.scss';
 const Navbar = () => {
   return (
     <header className="navbar">
-      <div className="navbar-logo">
-        <FaApple size={20} />
-      </div>
       <nav className="navbar-menu">
         <ul>
+          <li><a href="#"><FaApple size={20} /></a></li>
           <li><a href="#">스토어</a></li>
           <li><a href="#">Mac</a></li>
           <li><a href="#">iPad</a></li>
@@ -23,12 +21,10 @@ const Navbar = () => {
           <li><a href="#">엔터테인먼트</a></li>
           <li><a href="#">액세서리</a></li>
           <li><a href="#">고객지원</a></li>
+          <li><a href="#"><IoIosSearch size={20} /></a></li>
+          <li><a href="#"><IoBagOutline size={20} /></a></li>
         </ul>
       </nav>
-      <ul className="icon">
-        <IoIosSearch size={20} />
-        <IoBagOutline size={20} />
-      </ul>
     </header>
   );
 };
