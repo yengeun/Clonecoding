@@ -1,0 +1,41 @@
+.help-cards-section {
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    padding: 40px 0;
+  
+    .help-card {
+      background-color: white;
+      border-radius: 12px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      padding: 20px;
+      width: 30%;
+      text-align: left;
+      transition: transform 0.3s;
+  
+      &:hover {
+        transform: translateY(-5px);
+      }
+  
+      img {
+        width: 100%;
+        border-radius: 12px;
+      }
+  
+      .help-text {
+        margin-top: 15px;
+  
+        .help-title {
+          font-weight: bold;
+          font-size: 1.2rem;
+          margin-bottom: 10px;
+        }
+  
+        p {
+          font-size: 1rem;
+          color: #555;
+        }
+      }
+    }
+  }
+  
