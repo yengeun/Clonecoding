@@ -1,0 +1,42 @@
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1px 50px;
+    background-color: #fafafc;
+    font-family: 'Pretendard-Regular';
+    
+  
+    .navbar-logo {
+      margin-left: 10%;
+      font-size: 20px;
+      
+    }
+  
+    .navbar-menu ul {
+      display: flex;
+      list-style: none;
+      gap: 50px;
+      
+      
+  
+      li a {
+        text-decoration: none;
+        color: #1d1d1f;
+        font-size: 12px;
+  
+        &:hover {
+          color: #0070c9;
+        }
+      }
+    }
+  
+    .icon {
+      display: flex;
+      gap: 50px;
+      font-size: 20px;
+      list-style: none;
+      margin-right:10% ;
+    }
+}
+  
