@@ -1,59 +1,115 @@
-.main1 {
-    padding: 20px;
-  
-    h2 {
-      font-size: 1.8rem;
-      margin-bottom: 20px;
-      color: #555;
+h2{
+  span{
+    color:black;
+  }
+  color: #0000008f;
+  font-size: 1.5rem;
+}
+.cards-wrapper {
+  position: relative;
+  width: 100%;
+  overflow: hidden; /* Prevent cards from overflowing */
+}
 
-      span{
-        color:black;
-       }
-    }
+.cards-container {
+  margin-right: 10%;
+  display: flex;
+  gap: 20px; /* Space between each card */
+  overflow-x: auto; /* Allow horizontal scrolling */
+  scroll-behavior: smooth; /* Smooth scrolling */
+  width: 100%; /* 전체 너비 사용 */
+}
+.cards-container::-webkit-scrollbar {
+  display: none; /* Hide scrollbar for WebKit browsers */
+}
+.arrow {
+  position: absolute;
+  top: 50%; /* Center the arrow vertically */
+  transform: translateY(-50%); /* Adjust the arrow to be fully centered */
+  font-size: 40px;
+  color: rgba(0, 0, 0, 0.3); /* Make the arrow slightly transparent */
+  cursor: pointer;
+  z-index: 100; /* Ensure the arrow is above the content */
+
+  &.left-arrow {
+    left: 10px; /* Position on the left side */
+  }
+
+  &.right-arrow {
+    right: 10px; /* Position on the right side */
+  }
+
+  &:hover {
+    color: rgba(0, 0, 0, 0.2); /* Darken the arrow on hover */
+  }
+}
+
+.card {
+  flex: 0 0 400px; /* Fixed width for each card */
+  position: relative;
+  overflow: hidden;
+  border-radius: 20px;
+  margin:0;
+  transition: transform 0.3s ease-in-out;
+
+  img {
+    margin:0;
+    width: 400px;
+    height: 500px;
+    object-fit: cover;
+    border-radius: 18px;
+    box-shadow: 2px 4px 12px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+    transition: transform 0.3s cubic-bezier(0, 0, 0.5, 1);
+  }
+
+  &:hover img {
+    transform: scale(1.05); /* Zoom the image on hover */
+  }
+
+  .card-info {
+    position: absolute;
+    top:0;
+    left: 0;
+    color: white;
+    z-index: 1;
+    padding: 20px;
+    margin-top: 20px;
+    transition: opacity 0.3s ease;
+    background: transparent;
     
-    .cards-container {
-      display: flex;
-      gap: 20px;
-      justify-content: space-between;
-  
-      .card img {
-        background-color: #fff;
-        border-radius: 18px;
-        box-shadow: 2px 4px 12px #00000014;
-        overflow: hidden;
-        width: 400px;
-        height: 500px;
-        transition: all .3s cubic-bezier(0,0,.5,1);
-        position:relative;
-        white-space: normal;
-  
-        &:hover {
-          transform: scale(1.05);
-        }
-  
-        .card-info {
-          padding: 15px;
-          position:absolute;
-          transform: translate(-50%, -50%);
-          z-index: 1;
-  
-          h3 {
-            font-size: 1.2rem;
-            margin-bottom: 10px;
-          }
-  
-          p {
-            font-size: 1rem;
-            color: #555;
-          }
-  
-          span {
-            display: block;
-            font-weight: bold;
-            margin-top: 10px;
-          }
-        }
-      }
+    h3 {
+      margin: 0;
+      font-size: 28px;
+      font-weight: bold;
+      background: transparent;
+      margin-bottom: 10px;
+    }
+
+    p {
+      margin: 0;
+      font-size: 16px;
+      background: transparent;
+      margin-bottom: 10px;
+    }
+
+    span {
+      font-size: 14px;
+      margin:0;
+      background: transparent;
     }
   }
-  
+
+  .arrow-icon {
+    position: absolute;
+    bottom: 15px;
+    right: 15px;
+    font-size: 32px;
+    opacity: 0; /* Hidden by default */
+    transition: opacity 0.3s ease;
+    background: none;
+  }
+
+  &:hover .arrow-icon {
+    opacity: 1; /* Show the arrow on hover */
+  }
+}

@@ -36,9 +36,6 @@ const Main1 = () => {
               <h3>iPhone 16 Pro</h3>
               <p>궁극의 iPhone.</p>
               <span>₩1,550,000부터</span>
-              <div className="arrow-icon">
-                <IoIosArrowDroprightCircle />
-              </div>
             </div>
           </div>
           <div className="card">
@@ -47,9 +44,6 @@ const Main1 = () => {
               <h3>Apple Watch Series 10</h3>
               <p>얇아진 두께. 더 커진 존재감.</p>
               <span>₩599,000부터</span>
-              <div className="arrow-icon">
-                <IoIosArrowDroprightCircle />
-              </div>
             </div>
           </div>
           <div className="card">
@@ -58,9 +52,6 @@ const Main1 = () => {
               <h3>iPhone 16</h3>
               <p>막강한 성능.</p>
               <span>₩1,250,000부터</span>
-              <div className="arrow-icon">
-                <IoIosArrowDroprightCircle />
-              </div>
             </div>
           </div>
           <div className="card">
@@ -69,9 +60,6 @@ const Main1 = () => {
               <h3>Apple Watch Ultra 2</h3>
               <p>블랙으로 계속되는 전력 질주.</p>
               <span>₩1,149,000부터</span>
-              <div className="arrow-icon">
-                <IoIosArrowDroprightCircle />
-              </div>
             </div>
           </div>
           <div className="card">
@@ -81,9 +69,6 @@ const Main1 = () => {
               <p>아이콘의 귀환, 사운드의 진화.</p>
               <span>기본 모델 ₩199,000</span>
               <span>액티브 노이즈 캔슬링 모델 ₩269,000부터</span>
-              <div className="arrow-icon">
-                <IoIosArrowDroprightCircle />
-              </div>
             </div>
           </div>
           <div className="card">
@@ -92,9 +77,6 @@ const Main1 = () => {
               <h3>AirPods Pro 2</h3>
               <p>첨단 청각 건강 기능 탑재.</p>
               <span>₩349,000</span>
-              <div className="arrow-icon">
-                <IoIosArrowDroprightCircle />
-              </div>
             </div>
           </div>
           <div className="card">
@@ -103,9 +85,6 @@ const Main1 = () => {
               <h3>AirPods Max</h3>
               <p>새로운 5가지 색상. 풍성한 사운드.</p>
               <span>₩769,000</span>
-              <div className="arrow-icon">
-                <IoIosArrowDroprightCircle />
-              </div>
             </div>
           </div>
           <div className="card">
@@ -114,9 +93,6 @@ const Main1 = () => {
               <h3>MacBook Air</h3>
               <p>어디서나 종횡무진할 수 있도록.</p>
               <span>₩1,390,000</span>
-              <div className="arrow-icon">
-                <IoIosArrowDroprightCircle />
-              </div>
             </div>
           </div>
           <div className="card">
@@ -125,9 +101,6 @@ const Main1 = () => {
               <h3>iPad Air</h3>
               <p>새 바람이 불다.</p>
               <span>₩899,000부터</span>
-              <div className="arrow-icon">
-                <IoIosArrowDroprightCircle />
-              </div>
             </div>
           </div>
           <div className="card">
@@ -136,9 +109,6 @@ const Main1 = () => {
               <h3>MacBook Pro</h3>
               <p>비교 불가 성능, 시선 강탈 매력.</p>
               <span>₩2,390,000부터</span>
-              <div className="arrow-icon">
-                <IoIosArrowDroprightCircle />
-              </div>
             </div>
           </div>
           <div className="card">
@@ -147,9 +117,6 @@ const Main1 = () => {
               <h3>iPad Pro</h3>
               <p>불가능이란 얇다.</p>
               <span>₩1,499,000부터</span>
-              <div className="arrow-icon">
-                <IoIosArrowDroprightCircle />
-              </div>
             </div>
           </div>
         </div>
