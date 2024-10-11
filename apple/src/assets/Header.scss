@@ -31,15 +31,14 @@
         flex-direction: column;
         gap: 20px;
       }
+      .support-box{
+        margin-left: 13px;
+        
+      }
       .support-box, .store-box {
         display: flex;
         align-items: center; 
-      
-        img {
-          width: 30px;
-          height: 30px;
-        }
-      
+        
         div.text {
           display: flex;
           flex-direction: column;
@@ -47,6 +46,8 @@
           p {
             margin: 0;
             font-size: 0.8rem;
+            font-weight: 600;
+            margin-bottom: 7px;
           }
       
           a {
