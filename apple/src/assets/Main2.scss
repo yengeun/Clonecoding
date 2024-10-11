@@ -9,18 +9,15 @@
       border-radius: 12px;
       box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
       padding: 20px;
-      width: 30%;
+      width: 500px;
+      height: 500px;
       text-align: left;
       transition: transform 0.3s;
   
       &:hover {
         transform: translateY(-5px);
       }
-  
-      img {
-        width: 100%;
-        border-radius: 12px;
-      }
+
   
       .help-text {
         margin-top: 15px;

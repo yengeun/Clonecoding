@@ -16,25 +16,26 @@
       gap: 20px;
       justify-content: space-between;
   
-      .card {
+      .card img {
         background-color: #fff;
-        border-radius: 15px;
-        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        border-radius: 18px;
+        box-shadow: 2px 4px 12px #00000014;
         overflow: hidden;
-        width: 300px;
-        transition: transform 0.3s ease;
+        width: 400px;
+        height: 500px;
+        transition: all .3s cubic-bezier(0,0,.5,1);
+        position:relative;
+        white-space: normal;
   
         &:hover {
           transform: scale(1.05);
         }
   
-        img {
-          width: 100%;
-          height: auto;
-        }
-  
         .card-info {
           padding: 15px;
+          position:absolute;
+          transform: translate(-50%, -50%);
+          z-index: 1;
   
           h3 {
             font-size: 1.2rem;
