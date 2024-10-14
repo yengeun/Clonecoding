@@ -3,8 +3,8 @@
   align-items: center;
   justify-content: space-between;
   font-family: 'Pretendard-Regular';
-  position: relative;
-  z-index: 100;
+  z-index: 1000; /* Navbar가 오버레이 위에 표시되도록 설정 */
+
 
   .navbar-menu ul {
     display: flex;
@@ -34,20 +34,21 @@
           left: 0;
           padding: 20px;
           width: 800px;
+          background-color: #fff; /* 드롭다운 배경색 */
           display: flex;
           justify-content: space-between;
-          z-index: 200; /* 드롭다운 메뉴가 오버레이보다 위로 오도록 설정 */
+          z-index: 1100; /* 드롭다운 메뉴가 오버레이보다 위로 오도록 설정 */
           opacity: 0;
           visibility: hidden;
           transition: opacity 0.3s ease, visibility 0.3s ease;
 
-          .dropdown-section {
+          .dropdown-column {
             flex: 1;
             padding-right: 20px;
 
             h4 {
-              font-size: 14px;
-              margin-bottom: 10px;
+              font-size: 16px;
+              margin-bottom: 15px;
               font-weight: bold;
             }
 
@@ -57,15 +58,15 @@
               margin: 0;
 
               li {
-                margin-bottom: 10px;
-                font-size: 13px;
+                margin-bottom: 12px;
+                font-size: 14px;
 
                 a {
                   color: #333;
                   text-decoration: none;
 
                   &:hover {
-                    color: #0071e3;
+                    color: #0071e3; /* 링크 호버 시 색상 변경 */
                   }
                 }
               }
@@ -73,7 +74,7 @@
           }
         }
 
-        /* Hover 시 드롭다운 메뉴와 배경 블러 효과 함께 적용 */
+        /* Hover 시 드롭다운 메뉴 활성화 */
         &:hover .dropdown-menu {
           display: flex;
           opacity: 1;
@@ -83,23 +84,28 @@
         /* 배경 블러 처리: Hover 시 오버레이 활성화 */
         &:hover ~ .overlay {
           backdrop-filter: blur(10px); /* Hover 시 배경 블러 처리 */
-          background-color: rgba(255, 255, 255, 0.5); /* 약간의 배경색 */
+          background-color: rgba(255, 255, 255, 0.5); /* 배경에 약간의 투명도 추가 */
         }
       }
     }
   }
+}
 
-  /* 배경 블러 처리를 위한 오버레이 */
-  .overlay {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    z-index: 150; /* 오버레이가 드롭다운 메뉴 아래에 있어야 함 */
-    backdrop-filter: blur(0); /* 기본 상태에서 블러 없음 */
-    background-color: rgba(255, 255, 255, 0); /* 배경색 없음 */
-    transition: backdrop-filter 0.3s ease, background-color 0.3s ease;
-    pointer-events: none; /* 오버레이가 클릭을 방해하지 않도록 */
-  }
+/* 배경 블러 처리를 위한 오버레이 */
+.overlay {
+  position: fixed;
+  top: 100px; /* 헤더 아래부터 오버레이가 적용되도록 설정 */
+  left: 0;
+  width: 100%;
+  height: calc(100% - 100px); /* 헤더 높이를 제외한 나머지 영역에 블러 효과 적용 */
+  z-index: 500; /* 오버레이가 드롭다운 메뉴 아래에 위치 */
+  backdrop-filter: blur(0); /* 기본 상태에서 블러 없음 */
+  background-color: rgba(255, 255, 255, 0); /* 기본 상태에서 배경색 없음 */
+  transition: backdrop-filter 0.3s ease, background-color 0.3s ease;
+  pointer-events: none; /* 오버레이가 클릭을 방해하지 않도록 설정 */
+}
+
+.overlay.blur {
+  backdrop-filter: blur(10px); /* Hover 시 배경 블러 처리 */
+  background-color: rgba(255, 255, 255, 0.5); /* 배경에 약간의 투명도 추가 */
 }
