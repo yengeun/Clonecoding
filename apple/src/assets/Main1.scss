@@ -32,7 +32,8 @@ h2{
   z-index: 100; /* Ensure the arrow is above the content */
 
   &.left-arrow {
-    left: 10px; /* Position on the left side */
+    left: 10px;
+    background-color: transparent;
   }
 
   &.right-arrow {
@@ -51,6 +52,7 @@ h2{
   border-radius: 20px;
   margin:0;
   transition: transform 0.3s ease-in-out;
+  margin-bottom:30px;
 
   img {
     margin:0;
@@ -58,19 +60,20 @@ h2{
     height: 500px;
     object-fit: cover;
     border-radius: 18px;
-    box-shadow: 2px 4px 12px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+  
     transition: transform 0.3s cubic-bezier(0, 0, 0.5, 1);
   }
 
-  &:hover img {
-    transform: scale(1.05); /* Zoom the image on hover */
+  &:hover {
+    transform: scale(1.02); /* Zoom the image on hover */
   }
-
-  .card-info {
+  .card-info{
+    color: white;
+  }
+  .card-info, .card-info2 {
     position: absolute;
     top:0;
     left: 0;
-    color: white;
     z-index: 1;
     padding: 20px;
     margin-top: 20px;
@@ -97,19 +100,5 @@ h2{
       margin:0;
       background: transparent;
     }
-  }
-
-  .arrow-icon {
-    position: absolute;
-    bottom: 15px;
-    right: 15px;
-    font-size: 32px;
-    opacity: 0; /* Hidden by default */
-    transition: opacity 0.3s ease;
-    background: none;
-  }
-
-  &:hover .arrow-icon {
-    opacity: 1; /* Show the arrow on hover */
   }
 }

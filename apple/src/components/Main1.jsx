@@ -14,7 +14,7 @@ const Main1 = () => {
   };
 
   const scrollRight = () => {
-    if (scrollIndex < 4) { // Adjust the number based on how many cards can be scrolled
+    if (scrollIndex < 12) { // Adjust the number based on how many cards can be scrolled
       setScrollIndex(scrollIndex + 1);
       cardsRef.current.scrollBy({ left: 400, behavior: 'smooth' }); // Scroll right by the card width
     }
@@ -40,7 +40,7 @@ const Main1 = () => {
           </div>
           <div className="card">
             <img src="https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/store-card-40-watch-s10-202409?wid=800&hei=1000&fmt=jpeg&qlt=90&.v=1724095131742" alt="Apple Watch Series 10" />
-            <div className="card-info">
+            <div className="card-info2">
               <h3>Apple Watch Series 10</h3>
               <p>얇아진 두께. 더 커진 존재감.</p>
               <span>₩599,000부터</span>
@@ -64,7 +64,7 @@ const Main1 = () => {
           </div>
           <div className="card">
             <img src="https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/store-card-40-airpods-202409?wid=800&hei=1000&fmt=jpeg&qlt=90&.v=1722974321259" alt="AirPods 4" />
-            <div className="card-info">
+            <div className="card-info2">
               <h3>AirPods 4</h3>
               <p>아이콘의 귀환, 사운드의 진화.</p>
               <span>기본 모델 ₩199,000</span>
@@ -81,7 +81,7 @@ const Main1 = () => {
           </div>
           <div className="card">
             <img src="https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/store-card-40-airpods-max-202409?wid=800&hei=1000&fmt=jpeg&qlt=90&.v=1725895773753" alt="AirPods Max" />
-            <div className="card-info">
+            <div className="card-info2">
               <h3>AirPods Max</h3>
               <p>새로운 5가지 색상. 풍성한 사운드.</p>
               <span>₩769,000</span>
@@ -89,7 +89,7 @@ const Main1 = () => {
           </div>
           <div className="card">
             <img src="https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/store-card-40-macbook-air-202402?wid=800&hei=1000&fmt=p-jpg&qlt=95&.v=1707259289595" alt="MacBook Air" />
-            <div className="card-info">
+            <div className="card-info2">
               <h3>MacBook Air</h3>
               <p>어디서나 종횡무진할 수 있도록.</p>
               <span>₩1,390,000</span>
@@ -105,7 +105,7 @@ const Main1 = () => {
           </div>
           <div className="card">
             <img src="https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/store-card-40-macbook-pro-202310?wid=800&hei=1000&fmt=p-jpg&qlt=95&.v=1696964122967" alt="MacBook Pro" />
-            <div className="card-info">
+            <div className="card-info2">
               <h3>MacBook Pro</h3>
               <p>비교 불가 성능, 시선 강탈 매력.</p>
               <span>₩2,390,000부터</span>
@@ -120,7 +120,7 @@ const Main1 = () => {
             </div>
           </div>
         </div>
-        {scrollIndex < 4 && ( // Adjust based on total scroll steps
+        {scrollIndex < 11 && ( // Adjust based on total scroll steps
           <div className="arrow right-arrow" onClick={scrollRight}>
             <IoIosArrowDroprightCircle />
           </div>
