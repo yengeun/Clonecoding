@@ -8,45 +8,55 @@ h2{
 .cards-wrapper {
   position: relative;
   width: 100%;
-  overflow: hidden; /* Prevent cards from overflowing */
+  overflow: hidden;
 }
 
 .cards-container {
   margin-right: 10%;
   display: flex;
-  gap: 20px; /* Space between each card */
-  overflow-x: auto; /* Allow horizontal scrolling */
-  scroll-behavior: smooth; /* Smooth scrolling */
-  width: 100%; /* 전체 너비 사용 */
+  position: relative;
+  gap: 20px; 
+  overflow-x: auto; 
+  scroll-behavior: smooth; 
+  width: 100%; 
 }
 .cards-container::-webkit-scrollbar {
-  display: none; /* Hide scrollbar for WebKit browsers */
+  display: none; 
 }
-.arrow {
+
+.arrowl, .arrowr {
   position: absolute;
-  top: 50%; /* Center the arrow vertically */
-  transform: translateY(-50%); /* Adjust the arrow to be fully centered */
+  top: 50%;
+  transform: translateY(-50%);
   font-size: 40px;
-  color: rgba(0, 0, 0, 0.3); /* Make the arrow slightly transparent */
-  cursor: pointer;
-  z-index: 100; /* Ensure the arrow is above the content */
-
-  &.left-arrow {
-    left: 10px;
-    background-color: transparent;
-  }
-
-  &.right-arrow {
-    right: 10px; /* Position on the right side */
-  }
-
+  background: transparent;
+  border: none;
+  border-radius: 90%;
+  align-items: center;
+  z-index: 100;
+  background:rgba(0, 0, 0, 0.3); /* Darken arrow on hover */
+  opacity: 1;
   &:hover {
-    color: rgba(0, 0, 0, 0.2); /* Darken the arrow on hover */
+    background:rgba(0, 0, 0, 0.2); /* Darken arrow on hover */
   }
+
+  svg {
+    width: 60px;
+    height: 60px;
+    background: transparent;
+  }
+}
+
+.arrowl {
+  left: 10px;
+}
+
+.arrowr {
+  right: 10px;
 }
 
 .card {
-  flex: 0 0 400px; /* Fixed width for each card */
+  flex: 0 0 400px; 
   position: relative;
   overflow: hidden;
   border-radius: 20px;
@@ -60,7 +70,6 @@ h2{
     height: 500px;
     object-fit: cover;
     border-radius: 18px;
-  
     transition: transform 0.3s cubic-bezier(0, 0, 0.5, 1);
   }
 

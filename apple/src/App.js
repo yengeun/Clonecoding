@@ -3,13 +3,13 @@ import Navbar from './components/Navbar';
 import Header from './components/Header';
 import Main1 from './components/Main1';
 import Main2 from './components/Main2';
-import Main3 from './components/Main3';
+/*import Main3 from './components/Main3';
 import Main4 from './components/Main4';
 import Main5 from './components/Main5';
 import Main6 from './components/Main6';
 import Main7 from './components/Main7';
-import Footer from './components/Footer';
-import './assets/common.scss';
+import Footer from './components/Footer';*/
+
 
 const App = () => {
     return (
