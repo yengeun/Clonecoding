@@ -1,38 +1,57 @@
-.help-cards-section {
-    display: flex;
-    gap: 20px;
-    justify-content: space-between;
-    padding: 40px 0;
-  
-    .help-card {
-      background-color: white;
-      border-radius: 12px;
-      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-      padding: 20px;
-      width: 500px;
-      height: 500px;
-      text-align: left;
-      transition: transform 0.3s;
-  
-      &:hover {
-        transform: translateY(-5px);
-      }
 
+.card2 {
+    position: relative;
+    border-radius: 20px;
+    margin:0;
+    transition: transform 0.3s ease-in-out;
+    margin-bottom:30px;
   
-      .help-text {
-        margin-top: 15px;
+    img {
+        margin:0;
+        width: 450px;
+        height: 500px;
+        object-fit: cover;
+        border-radius: 18px;
+        transition: transform 0.3s cubic-bezier(0, 0, 0.5, 1);
+    }
   
-        .help-title {
-          font-weight: bold;
-          font-size: 1.2rem;
-          margin-bottom: 10px;
-        }
+    &:hover {
+      transform: scale(1.02); 
+    }
+    .card-info{
+      color: white;
+    }
+    .card-info, .card-info2 {
+      position: absolute;
+      top:0;
+      left: 0;
+      z-index: 1;
+      padding: 20px;
+      margin-top: 20px;
+      transition: opacity 0.3s ease;
+      background: transparent;
+      
+      h3 {
+        margin: 0;
+        font-size: 25px;
+        font-weight: bolder;
+        background: transparent;
+        margin-bottom: 10px;
+        margin-top: 10px;
+      }
   
-        p {
-          font-size: 1rem;
-          color: #555;
-        }
+      span {
+        color: #1414148f;
+        font-size: 11px;
+        font-weight: 800;
+        margin:0;
+        background: transparent;
+      }
+      p {
+        margin: 0;
+        font-size: 15px;
+        background: transparent;
+        margin-bottom: 10px;
       }
     }
-  }
-  
+}

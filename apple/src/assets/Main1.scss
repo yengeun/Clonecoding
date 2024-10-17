@@ -27,23 +27,23 @@ h2{
 .arrowl, .arrowr {
   position: absolute;
   top: 50%;
-  transform: translateY(-50%);
+  transform: translateY(-30%);
   font-size: 40px;
-  background: transparent;
   border: none;
-  border-radius: 90%;
   align-items: center;
   z-index: 100;
-  background:rgba(0, 0, 0, 0.3); /* Darken arrow on hover */
-  opacity: 1;
-  &:hover {
-    background:rgba(0, 0, 0, 0.2); /* Darken arrow on hover */
-  }
+  background: transparent;
+ 
 
   svg {
     width: 60px;
     height: 60px;
-    background: transparent;
+    border-radius: 90%;
+    background:rgba(117, 114, 114, 0.6);
+
+    &:hover {
+      background:rgba(231, 226, 226, 0.6); 
+    }
   }
 }
 
@@ -110,4 +110,53 @@ h2{
       background: transparent;
     }
   }
+}
+
+.cardm {
+    position: relative;
+    overflow: hidden;
+    border-radius: 20px;
+    margin:0;
+    transition: transform 0.3s ease-in-out;
+    margin-bottom:30px;
+  
+    img {
+      margin:0;
+      width: 800px;
+      height: 500px;
+      object-fit: cover;
+      border-radius: 18px;
+      transition: transform 0.3s cubic-bezier(0, 0, 0.5, 1);
+    }
+  
+    &:hover {
+      transform: scale(1.02); /* Zoom the image on hover */
+    }
+    .card-info{
+      color: white;
+    }
+    .card-info, .card-info2 {
+      position: absolute;
+      top:0;
+      left: 0;
+      z-index: 1;
+      padding: 20px;
+      margin-top: 20px;
+      transition: opacity 0.3s ease;
+      background: transparent;
+      
+      h3 {
+        margin: 0;
+        font-size: 20px;
+        font-weight: bold;
+        background: transparent;
+        margin-bottom: 10px;
+      }
+  
+      span {
+        font-size: 14px;
+        margin:0;
+        background: transparent;
+      }
+    }
 }
