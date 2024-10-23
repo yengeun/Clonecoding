@@ -10,7 +10,6 @@
   .cards-wrapper {
     position: relative;
     width: 100%;
-
   }
   
 
@@ -56,11 +55,15 @@
     margin-left: 8px; 
     transition: transform 0.3s ease-in-out;
     margin-bottom:30px;
-    background-color: transparent;
+    background-color: white;
     height: 230px;
     max-width: 300px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); 
-    overflow: hidden;;
+    overflow: hidden;
+
+    svg{
+      background: transparent;
+    }
   
     &:hover {
       transform: scale(1.02); /* Zoom the image on hover */
