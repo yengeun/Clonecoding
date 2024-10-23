@@ -25,7 +25,7 @@ const Main4 = () => {
 
   return (
     <div className="main4">
-      <h2><span>main4</span> 따끈따끈한 신제품 이야기.</h2>
+      <h2><span>액세서리.</span>즐겨 사용하는 기기들과 완벽하게 페어링되는 여러 가지 필수품.</h2>
       <div className="cards-wrapper">
         {scrollIndex > 0 && (
           <button className="arrowl" onClick={scrollLeft}>
@@ -36,92 +36,111 @@ const Main4 = () => {
         )}
         <div className="cards-container" ref={cardsRef}>
           <div className="card">
-            <img src="https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/store-card-40-iphone-16-pro-202409?wid=800&hei=1000&fmt=jpeg&qlt=90&.v=1726165763242" alt="iPhone 16 Pro" />
-            <div className="card-info">
-              <h3>iPhone 16 Pro</h3>
-              <p>궁극의 iPhone.</p>
-              <span>₩1,550,000부터</span>
-            </div>
-          </div>
-          <div className="card">
-            <img src="https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/store-card-40-watch-s10-202409?wid=800&hei=1000&fmt=jpeg&qlt=90&.v=1724095131742" alt="Apple Watch Series 10" />
+            <img src="https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/store-card-40-accessories-202409?wid=800&hei=1000&fmt=p-jpg&qlt=95&.v=1723822259651" alt="a1" />
             <div className="card-info2">
-              <h3>Apple Watch Series 10</h3>
-              <p>얇아진 두께. 더 커진 존재감.</p>
-              <span>₩599,000부터</span>
+              <h3>새로움을 입다</h3>
+              <p>당신의 최애 액세서리들. 이제 대담한 새 색상, 그리고<br />혁신적인 신기능과 함께. </p>
+            </div>
+          </div>
+          <div className="card4">
+            <img src="https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/MA7E4?wid=400&hei=400&fmt=jpeg&qlt=90&.v=1723930332796" alt="a2" />
+            <div className="card-info4">
+              <p>NEW</p>
+              <h3>MagSafe형 iPhone 16 Pro 투명<br />케이스</h3>
+              <span>₩69,000</span>
+            </div>
+          </div>
+          <div className="card4">
+            <img src="https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/MXL63?wid=400&hei=400&fmt=jpeg&qlt=90&.v=1724186591572" alt="a3" />
+            <div className = "colorstack">
+              <img src = "https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/MXL73_SW_COLOR?wid=64&hei=64&fmt=jpeg&qlt=95&.v=1724298866568" />
+              <img src = "https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/MXL83_SW_COLOR?wid=64&hei=64&fmt=jpeg&qlt=95&.v=1724298868354" />
+              <img src = "https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/MXL53_SW_COLOR?wid=64&hei=64&fmt=jpeg&qlt=95&.v=1724298870467" />
+              <img src = "https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/MXL33ref_SW_COLOR?wid=64&hei=64&fmt=jpeg&qlt=95&.v=1724298870486" />
+              <img src= "https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/MXL63_SW_COLOR?wid=64&hei=64&fmt=jpeg&qlt=95&.v=1724298866591" />
+            </div>
+            <div className="card-info4">
+              <p>NEW</p>
+              <h3>46mm 플럼 스포츠 루프</h3>
+              <span>₩65,000</span>
+            </div>
+          </div>
+          <div className="card4">
+            <img src="https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/MXKF3ref?wid=400&hei=400&fmt=jpeg&qlt=90&.v=1723919328571" alt="a4" />
+            <div className = "colorstack">
+              <img src = "https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/MXKC3ref_SW_COLOR?wid=64&hei=64&fmt=jpeg&qlt=95&.v=1724284017035" />
+              <img src = "https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/MXKF3ref_SW_COLOR?wid=64&hei=64&fmt=jpeg&qlt=95&.v=1724284014784" />
+            </div>
+            <div className="card-info4">
+              <p>NEW</p>
+              <h3>49mm 블랙 티타늄 밀레니즈 루프 - M</h3>
+              <span>₩285,000</span>
+            </div>
+          </div>
+          <div className="card4">
+            <img src="https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/MYY63?wid=400&hei=400&fmt=jpeg&qlt=90&.v=1723236736369" alt="a5" />
+            <div className = "colorstack">
+              <img src = "https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/MYY73_SW_COLOR?wid=64&hei=64&fmt=jpeg&qlt=90&.v=1723690292925" />
+              <img src = "https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/MYY63_SW_COLOR?wid=64&hei=64&fmt=jpeg&qlt=90&.v=1723690292473" />
+              <img src = "https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/MYY83_SW_COLOR?wid=64&hei=64&fmt=jpeg&qlt=90&.v=1723690292633" />
+              <img src = "https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/MYY53_SW_COLOR?wid=64&hei=64&fmt=jpeg&qlt=90&.v=1723690292380" />
+              <img src= "https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/MYY33_SW_COLOR?wid=64&hei=64&fmt=jpeg&qlt=90&.v=1723690292977" />
+              <img src= "https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/MYY43_SW_COLOR?wid=64&hei=64&fmt=jpeg&qlt=90&.v=1723690294993" />
+            </div>
+            <div className="card-info4">
+              <p>NEW</p>
+              <h3>MagSafe형 iPhone 16 실리콘<br/>케이스 - 울트라마린</h3>
+              <span>₩69,000</span>
+            </div>
+          </div>
+          <div className="card4">
+            <img src="https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/MA6X4?wid=400&hei=400&fmt=jpeg&qlt=90&.v=1723573541193" alt="a6" />
+            <div className = "colorstack">
+              <img src = "https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/MA6Y4_SW_COLOR?wid=64&hei=64&fmt=jpeg&qlt=90&.v=1723690482379" />
+              <img src = "https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/MA6W4_SW_COLOR?wid=64&hei=64&fmt=jpeg&qlt=90&.v=1723690482358" />
+              <img src = "https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/MA6X4_SW_COLOR?wid=64&hei=64&fmt=jpeg&qlt=90&.v=1723690482434" />
+              <img src = "https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/MA7A4_SW_COLOR?wid=64&hei=64&fmt=jpeg&qlt=90&.v=1723690482371" />
+            </div>
+            <div className="card-info4">
+              <p>NEW</p>
+              <h3>MagSafe형 iPhone 파인우븐<br/>카드지갑 - 딥 블루</h3>
+              <span>₩85,000</span>
+            </div>
+          </div>
+          <div className="card4">
+            <img src="https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/MX6X3?wid=400&hei=400&fmt=jpeg&qlt=90&.v=1724257154789" alt="a7" />
+            <div className="card-info4">
+              <p>NEW</p>
+              <h3>MagSafe 충전기(1m)</h3>
+              <span>₩65,000</span>
+            </div>
+          </div>
+          <div className="card4">
+            <img src="https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/MC2V4?wid=400&hei=400&fmt=jpeg&qlt=90&.v=1727989775810" alt="a8" />
+            <div className = "colorstack">
+              <img src = "https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/MC2Q4_SW_COLOR?wid=64&hei=64&fmt=jpeg&qlt=90&.v=1727443177575" />
+              <img src = "https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/MC2V4_SW_COLOR?wid=64&hei=64&fmt=jpeg&qlt=90&.v=1727443177576" />
+              <img src = "https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/MQLK3_SW_COLOR?wid=64&hei=64&fmt=jpeg&qlt=90&.v=1682985972906" />
+              <img src = "https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/MUW33_SW_COLOR?wid=64&hei=64&fmt=jpeg&qlt=90&.v=1712255582736" />
+            </div>
+            <div className="card-info4">
+              <p>NEW</p>
+              <h3>iPad mini(A17 Pro 모델)용 Smart<br/>Folio - 세이지</h3>
+              <span>₩89,000</span>
+            </div>
+          </div>
+          <div className="card4">
+            <img src="https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/MX2D3?wid=400&hei=400&fmt=jpeg&qlt=90&.v=1713841707336" alt="a9" />
+            <div className="card-info4">
+              <p>무료 각인</p>
+              <h3>Apple Pencil Pro</h3>
+              <span>₩195,000</span>
             </div>
           </div>
           <div className="card">
-            <img src="https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/store-card-40-iphone-16-202409?wid=800&hei=1000&fmt=jpeg&qlt=90&.v=1725661572506" alt="iPhone 16" />
-            <div className="card-info">
-              <h3>iPhone 16</h3>
-              <p>막강한 성능.</p>
-              <span>₩1,250,000부터</span>
-            </div>
-          </div>
-          <div className="card">
-            <img src="https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/store-card-40-watch-ultra-202409_GEO_KR?wid=800&hei=1000&fmt=jpeg&qlt=90&.v=1725655434794" alt="Apple Watch Ultra 2" />
-            <div className="card-info">
-              <h3>Apple Watch Ultra 2</h3>
-              <p>블랙으로 계속되는 전력 질주.</p>
-              <span>₩1,149,000부터</span>
-            </div>
-          </div>
-          <div className="card">
-            <img src="https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/store-card-40-airpods-202409?wid=800&hei=1000&fmt=jpeg&qlt=90&.v=1722974321259" alt="AirPods 4" />
+            <img src="https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/store-card-40-accessories-explore-202410?wid=800&hei=1000&fmt=p-jpg&qlt=95&.v=1728266907826"/>
             <div className="card-info2">
-              <h3>AirPods 4</h3>
-              <p>아이콘의 귀환, 사운드의 진화.</p>
-              <span>기본 모델 ₩199,000</span>
-              <span>액티브 노이즈 캔슬링 모델 ₩269,000부터</span>
-            </div>
-          </div>
-          <div className="card">
-            <img src="https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/store-card-40-airpods-pro-202409?wid=800&hei=1000&fmt=jpeg&qlt=90&.v=1722974321164" alt="AirPods Pro 2" />
-            <div className="card-info">
-              <h3>AirPods Pro 2</h3>
-              <p>첨단 청각 건강 기능 탑재.</p>
-              <span>₩349,000</span>
-            </div>
-          </div>
-          <div className="card">
-            <img src="https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/store-card-40-airpods-max-202409?wid=800&hei=1000&fmt=jpeg&qlt=90&.v=1725895773753" alt="AirPods Max" />
-            <div className="card-info2">
-              <h3>AirPods Max</h3>
-              <p>새로운 5가지 색상. 풍성한 사운드.</p>
-              <span>₩769,000</span>
-            </div>
-          </div>
-          <div className="card">
-            <img src="https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/store-card-40-ipad-air-202405?wid=800&hei=1000&fmt=jpeg&qlt=90&.v=1713308272877" alt="iPad Air" />
-            <div className="card-info2">
-              <h3>iPad Air</h3>
-              <p>새 바람이 불다.</p>
-              <span>₩899,000부터</span>
-            </div>
-          </div>
-          <div className="card">
-            <img src="https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/store-card-40-macbook-pro-202310?wid=800&hei=1000&fmt=p-jpg&qlt=95&.v=1696964122967" alt="MacBook Pro" />
-            <div className="card-info2">
-              <h3>MacBook Pro</h3>
-              <p>비교 불가 성능, 시선 강탈 매력.</p>
-              <span>₩2,390,000부터</span>
-            </div>
-          </div>
-          <div className="card">
-            <img src="https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/store-card-40-ipad-pro-202405?wid=800&hei=1000&fmt=p-jpg&qlt=95&.v=1713308272816" alt="iPad Pro" />
-            <div className="card-info">
-              <h3>iPad Pro</h3>
-              <p>불가능이란 얇다.</p>
-              <span>₩1,499,000부터</span>
-            </div>
-          </div>
-          <div className="card">
-            <img src="https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/store-card-40-macbook-air-202402?wid=800&hei=1000&fmt=p-jpg&qlt=95&.v=1707259289595" alt="MacBook Air" />
-            <div className="card-info2">
-              <h3>MacBook Air</h3>
-              <p>어디서나 종횡무진할 수 있도록.</p>
-              <span>₩1,390,000</span>
+              <h3>모든 액세서리를 살펴보세요.</h3>
             </div>
           </div>
         </div>
