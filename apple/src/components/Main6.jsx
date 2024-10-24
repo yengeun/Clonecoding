@@ -25,7 +25,7 @@ const Main6 = () => {
 
   return (
     <div className="main2">
-      <h2><span>main6</span>언제든, 당신에게 맞는 방식으로.</h2>
+      <h2><span>Apple 경험.</span>Apple 제품 및 서비스로 더욱더 많은 걸 누리다.</h2>
       <div className="cards-wrapper">
         {scrollIndex > 0 && (
           <button className="arrowl" onClick={scrollLeft}>
@@ -36,32 +36,30 @@ const Main6 = () => {
         )}
         <div className="cards-container" ref={cardsRef}>
           <div className="card2">
-            <img src="https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/store-card-50-specialist-help-202309?wid=960&hei=1000&fmt=p-jpg&qlt=95&.v=1701194078821" alt="1" />
+            <img src="https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/store-card-50-tv-services-202409_GEO_KR?wid=960&hei=1000&fmt=p-jpg&qlt=95&.v=1727235727552" alt="1" />
             <div className="card-info2">
-              <span>APPLE 스페셜리스트</span>
-              <h3>스페셜리스트와 함께하는 일대일 쇼핑.<br></br>온라인에서도 매장에서도.</h3>
+              <span>APPLE TV+</span>
+              <h3>매달 새로운 Apple Original 콘텐츠<br></br>감상.*</h3>
             </div>
           </div>
           <div className="card2">
-            <img src="https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/store-card-50-TAA-202310?wid=960&hei=1000&fmt=p-jpg&qlt=95&.v=1697149577145" alt="2" />
+            <img src="https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/store-card-50-subscriptions-202108?wid=960&hei=1000&fmt=p-jpg&qlt=95&.v=1626375547000" alt="2" />
             <div className="card-info2">
-              <span>TODAY AT APPLE</span>
-              <h3>Apple Store의 무료 세션에 참여해<br></br>보세요.</h3>
-              <p>최신 기능과 더불어 Apple 기기를 더욱 심도 있게 활용하는 법을<br></br>알아보세요.</p>
+              <h3>네 가지 Apple 서비스. 한 번의<br></br>간편한 가입.</h3>
             </div>
           </div>
           <div className="card2">
-            <img src="https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/store-card-50-personal-setup-202408?wid=960&hei=1000&fmt=p-jpg&qlt=95&.v=1727714996748" alt="3" />
+            <img src="https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/store-card-50-applecare-202409?wid=960&hei=1000&fmt=p-jpg&qlt=95&.v=1723747544269" alt="3" />
             <div className="card-info2">
-              <span>일대일 가이드</span>
-              <h3>새로 산 기기와 더 친숙해지고 싶다면?<br></br>개인 맞춤 설정 세션에 참여해보세요.</h3>
-              <p>설정 및 데이터 전송 방법부터 최신 기능 사용법까지 온라인 세션에서<br></br>배워보세요.</p>
+              <h3>보다 오래 안심할 수 있도록.</h3>
+              <p>이제 AppleCare+가 우발적인 손상에 대한 수리<br></br>서비스를 횟수 제한 없이 제공합니다.</p>
             </div>
           </div>
           <div className="card2">
-            <img src="https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/store-card-50-genius-202108?wid=960&hei=1000&fmt=p-jpg&qlt=95&.v=1626375544000" alt="4" />
+            <img src="https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/store-card-50-homekit-202405_GEO_KR?wid=960&hei=1000&fmt=p-jpg&qlt=95&.v=1715960296048" alt="4" />
             <div className="card-info2">
-              <h3>Genius Bar에서 직접 전문가의 도움을<br></br>받을 수 있습니다.</h3>
+              <span>홈</span>
+              <h3>앱 하나로 집안 전체를 관리하는<br></br>방법을 알아보세요.</h3>
             </div>
           </div>
         </div>
