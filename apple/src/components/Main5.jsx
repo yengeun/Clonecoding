@@ -51,98 +51,80 @@ const Main5 = () => {
             </div>
           </div>
           <div className="card4">
-            <img src="https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/MXL63?wid=400&hei=400&fmt=jpeg&qlt=90&.v=1724186591572" alt="a3" />
+            <img src="https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/MQLK3?wid=400&hei=400&fmt=jpeg&qlt=90&.v=1682361480894" alt="a3" />
             <div className = "colorstack">
-              <img src = "https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/MXL73_SW_COLOR?wid=64&hei=64&fmt=jpeg&qlt=95&.v=1724298866568" />
-              <img src = "https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/MXL83_SW_COLOR?wid=64&hei=64&fmt=jpeg&qlt=95&.v=1724298868354" />
-              <img src = "https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/MXL53_SW_COLOR?wid=64&hei=64&fmt=jpeg&qlt=95&.v=1724298870467" />
-              <img src = "https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/MXL33ref_SW_COLOR?wid=64&hei=64&fmt=jpeg&qlt=95&.v=1724298870486" />
-              <img src= "https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/MXL63_SW_COLOR?wid=64&hei=64&fmt=jpeg&qlt=95&.v=1724298866591" />
-            </div>
-            <div className="card-info4">
-              <p>NEW</p>
-              <h3>46mm 플럼 스포츠 루프</h3>
-              <span>₩65,000</span>
-            </div>
-          </div>
-          <div className="card4">
-            <img src="https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/MXKF3ref?wid=400&hei=400&fmt=jpeg&qlt=90&.v=1723919328571" alt="a4" />
-            <div className = "colorstack">
-              <img src = "https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/MXKC3ref_SW_COLOR?wid=64&hei=64&fmt=jpeg&qlt=95&.v=1724284017035" />
-              <img src = "https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/MXKF3ref_SW_COLOR?wid=64&hei=64&fmt=jpeg&qlt=95&.v=1724284014784" />
-            </div>
-            <div className="card-info4">
-              <p>NEW</p>
-              <h3>49mm 블랙 티타늄 밀레니즈 루프 - M</h3>
-              <span>₩285,000</span>
-            </div>
-          </div>
-          <div className="card4">
-            <img src="https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/MYY63?wid=400&hei=400&fmt=jpeg&qlt=90&.v=1723236736369" alt="a5" />
-            <div className = "colorstack">
-              <img src = "https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/MYY73_SW_COLOR?wid=64&hei=64&fmt=jpeg&qlt=90&.v=1723690292925" />
-              <img src = "https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/MYY63_SW_COLOR?wid=64&hei=64&fmt=jpeg&qlt=90&.v=1723690292473" />
-              <img src = "https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/MYY83_SW_COLOR?wid=64&hei=64&fmt=jpeg&qlt=90&.v=1723690292633" />
-              <img src = "https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/MYY53_SW_COLOR?wid=64&hei=64&fmt=jpeg&qlt=90&.v=1723690292380" />
-              <img src= "https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/MYY33_SW_COLOR?wid=64&hei=64&fmt=jpeg&qlt=90&.v=1723690292977" />
-              <img src= "https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/MYY43_SW_COLOR?wid=64&hei=64&fmt=jpeg&qlt=90&.v=1723690294993" />
-            </div>
-            <div className="card-info4">
-              <p>NEW</p>
-              <h3>MagSafe형 iPhone 16 실리콘<br/>케이스 - 울트라마린</h3>
-              <span>₩69,000</span>
-            </div>
-          </div>
-          <div className="card4">
-            <img src="https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/MA6X4?wid=400&hei=400&fmt=jpeg&qlt=90&.v=1723573541193" alt="a6" />
-            <div className = "colorstack">
-              <img src = "https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/MA6Y4_SW_COLOR?wid=64&hei=64&fmt=jpeg&qlt=90&.v=1723690482379" />
-              <img src = "https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/MA6W4_SW_COLOR?wid=64&hei=64&fmt=jpeg&qlt=90&.v=1723690482358" />
-              <img src = "https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/MA6X4_SW_COLOR?wid=64&hei=64&fmt=jpeg&qlt=90&.v=1723690482434" />
-              <img src = "https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/MA7A4_SW_COLOR?wid=64&hei=64&fmt=jpeg&qlt=90&.v=1723690482371" />
-            </div>
-            <div className="card-info4">
-              <p>NEW</p>
-              <h3>MagSafe형 iPhone 파인우븐<br/>카드지갑 - 딥 블루</h3>
-              <span>₩85,000</span>
-            </div>
-          </div>
-          <div className="card4">
-            <img src="https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/MX6X3?wid=400&hei=400&fmt=jpeg&qlt=90&.v=1724257154789" alt="a7" />
-            <div className="card-info4">
-              <p>NEW</p>
-              <h3>MagSafe 충전기(1m)</h3>
-              <span>₩65,000</span>
-            </div>
-          </div>
-          <div className="card4">
-            <img src="https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/MC2V4?wid=400&hei=400&fmt=jpeg&qlt=90&.v=1727989775810" alt="a8" />
-            <div className = "colorstack">
-              <img src = "https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/MC2Q4_SW_COLOR?wid=64&hei=64&fmt=jpeg&qlt=90&.v=1727443177575" />
-              <img src = "https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/MC2V4_SW_COLOR?wid=64&hei=64&fmt=jpeg&qlt=90&.v=1727443177576" />
               <img src = "https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/MQLK3_SW_COLOR?wid=64&hei=64&fmt=jpeg&qlt=90&.v=1682985972906" />
+              <img src = "https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/MQLH3_SW_COLOR?wid=64&hei=64&fmt=jpeg&qlt=90&.v=1682361466573" />
+              <img src = "https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/MQLJ3_SW_COLOR?wid=64&hei=64&fmt=jpeg&qlt=90&.v=1693952267374" />
+            </div>
+            <div className="card-info4">
+              <h3>Beats Studio Buds + 진정한 무선<br/>노이즈 캔슬링 이어버드 - 투명</h3>
+              <span>₩229,000</span>
+            </div>
+          </div>
+          <div className="card4">
+            <img src="https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/airpods-4-anc-select-202409?wid=400&hei=400&fmt=jpeg&qlt=90&.v=1725502639798" alt="airpod4" />
+            <div className="card-info4">
+              <p>무료 각인</p>
+              <h3>AirPds 4 액티브 노이즈 캔슬링 모델</h3>
+              <span>₩269,000</span>
+            </div>
+          </div>
+          <div className="card4">
+            <img src="https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/airpods-max-select-202409-midnight?wid=400&hei=400&fmt=jpeg&qlt=90&.v=1724927451276" alt="a5" />
+            <div className = "colorstack">
+              <img src = "https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/airpods-max-select-202409-blue_SW_COLOR?wid=64&hei=64&fmt=jpeg&qlt=90&.v=1724046212237" />
+              <img src = "https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/airpods-max-select-202409-purple_SW_COLOR?wid=64&hei=64&fmt=jpeg&qlt=90&.v=1724047056470" />
+              <img src = "https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/airpods-max-select-202409-midnight_SW_COLOR?wid=64&hei=64&fmt=jpeg&qlt=90&.v=1724047056495" />
+              <img src = "https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/airpods-max-select-202409-starlight_SW_COLOR?wid=64&hei=64&fmt=jpeg&qlt=90&.v=1724047423112" />
+              <img src= "https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/airpods-max-select-202409-orange_SW_COLOR?wid=64&hei=64&fmt=jpeg&qlt=90&.v=1724047056468" />
+              
+            </div>
+            <div className="card-info4">
+              <p>무료 각인</p>
+              <h3>AirPds Max - 미드나이트</h3>
+              <span>₩769,000</span>
+            </div>
+          </div>
+          <div className="card4">
+            <img src="https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/MAX24?wid=400&hei=400&fmt=jpeg&qlt=90&.v=1727302305596" alt="a6" />
+            <div className = "colorstack">
+              <img src = "https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/MAX24_SW_COLOR?wid=64&hei=64&fmt=jpeg&qlt=90&.v=1727302297479" />
+              <img src = "https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/MAX44_SW_COLOR?wid=64&hei=64&fmt=jpeg&qlt=90&.v=1727302297479" />
+            </div>
+            <div className="card-info4">
+              <p>NEW</p>
+              <h3>Beats Pill - 킴 카다시안 스페셜 에디션<br/>- 라이트 그레이</h3>
+              <span>₩219,000</span>
+            </div>
+          </div>
+          <div className="card4">
+            <img src="https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/MUW33?wid=400&hei=400&fmt=jpeg&qlt=90&.v=1712255584823" alt="a7" />
+            <div className = "colorstack">
+              <img src = "https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/MW443_SW_COLOR?wid=64&hei=64&fmt=jpeg&qlt=90&.v=1716251399673" />
+              <img src = "https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/MUW43_SW_COLOR?wid=64&hei=64&fmt=jpeg&qlt=90&.v=1712255582735" />
               <img src = "https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/MUW33_SW_COLOR?wid=64&hei=64&fmt=jpeg&qlt=90&.v=1712255582736" />
             </div>
             <div className="card-info4">
               <p>NEW</p>
-              <h3>iPad mini(A17 Pro 모델)용 Smart<br/>Folio - 세이지</h3>
-              <span>₩89,000</span>
+              <h3>Beats Solo 4 - 온이어 wireless<br/>헤드폰 - 클라우드 핑크</h3>
+              <span>₩269,000</span>
             </div>
           </div>
           <div className="card4">
-            <img src="https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/MX2D3?wid=400&hei=400&fmt=jpeg&qlt=90&.v=1713841707336" alt="a9" />
+            <img src="https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/MWQW3?wid=400&hei=400&fmt=jpeg&qlt=90&.v=1716251412396" alt="a8" />
+            <div className = "colorstack">
+              <img src = "https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/MW443_SW_COLOR?wid=64&hei=64&fmt=jpeg&qlt=90&.v=1716251399673" />
+              <img src = "https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/MWQW3_SW_COLOR?wid=64&hei=64&fmt=jpeg&qlt=90&.v=1716251399672" />
+              <img src = "https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/MW463_SW_COLOR?wid=64&hei=64&fmt=jpeg&qlt=90&.v=1716251399673" />
+            </div>
             <div className="card-info4">
-              <p>무료 각인</p>
-              <h3>Apple Pencil Pro</h3>
-              <span>₩195,000</span>
+              <p>NEW</p>
+              <h3>Beats Pill - 무선 Bluetooth®<br/>스피커 - 볼드 레드</h3>
+              <span>₩219,000</span>
             </div>
           </div>
-          <div className="card">
-            <img src="https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/store-card-40-accessories-explore-202410?wid=800&hei=1000&fmt=p-jpg&qlt=95&.v=1728266907826"/>
-            <div className="card-info2">
-              <h3>모든 액세서리를 살펴보세요.</h3>
-            </div>
-          </div>
+         
         </div>
         {scrollIndex < 14 && ( 
           <button className="arrowr" onClick={scrollRight}>
