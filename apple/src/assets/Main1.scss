@@ -91,7 +91,7 @@ h2{
     margin-top: 20px;
     transition: opacity 0.3s ease;
     background: transparent;
-
+  
     sup{
       background: transparent;
       font-size:  .6em;
@@ -109,14 +109,14 @@ h2{
       background: transparent;
       margin-bottom: 10px;
     }
-
+  
     p {
       margin: 0;
       font-size: 16px;
       background: transparent;
       margin-bottom: 10px;
     }
-
+  
     span {
       font-size: 14px;
       margin:0;
@@ -124,6 +124,7 @@ h2{
     }
   }
 }
+
 .card4 {
   display: flex;
   flex-direction: column; /* 세로로 쌓이도록 설정 */
