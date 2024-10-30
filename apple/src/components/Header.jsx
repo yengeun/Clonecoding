@@ -14,10 +14,19 @@ const Header = () => {
         <div className="right-side">
           <div className="support-box">
             <img width="35" height="35" src="https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/store-chat-specialist-icon-202309_AV2?wid=35&hei=35&fmt=jpeg&qlt=95&.v=1701194050335" alt="Support" />
-            <div className="text">
-                <p>쇼핑 지원이 필요하다면?</p>
-                <a href="https://contactretail.apple.com/Help"  target="_blank">스페셜리스트에게 문의하세요<GoArrowUpRight style={{ marginLeft: '5px', marginBottom:'-3px' }} /></a>
+            <div className="text" onClick={() => window.open(`${window.location.origin}/HeaderShopping`, '_blank')}>
+              <p style={{ cursor: 'pointer' }}>쇼핑 지원이 필요하다면?</p>
+              <a href="#" onClick={(e) => {
+                e.preventDefault();
+                e.stopPropagation();
+                window.open(`${window.location.origin}/HeaderShopping`, '_blank');
+              }}>
+                스페셜리스트에게 문의하세요
+                <GoArrowUpRight style={{ marginLeft: '5px', marginBottom: '-3px' }} />
+              </a>
             </div>
+
+
           </div>
           <div className="store-box">
           <svg width="25" height="35" viewBox="0 0 25 35" class="dd-glyph-svg dd-glyph-base" aria-hidden="true">
