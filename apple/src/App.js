@@ -12,12 +12,13 @@ import Main7 from './components/Main7';
 import Footer from './components/Footer';
 import Footer2 from './components/Footer2';
 import HeaderShopping from './components/HeaderShopping';
+import Order from './components/Order'; // Import the OrderLookup component
 
 const App = () => {
     return (
         <Router>
             <Routes>
-                {/* 메인 페이지 Route */}
+                {/* Main page Route */}
                 <Route path="/" element={
                     <>
                         <Navbar />
@@ -33,8 +34,12 @@ const App = () => {
                         <Footer2 />
                     </>
                 } />
-                {/* HeaderShopping 페이지 Route */}
+                
+                {/* HeaderShopping page Route */}
                 <Route path="/HeaderShopping" element={<HeaderShopping />} />
+                
+                {/* OrderLookup page Route */}
+                <Route path="/Order" element={<Order />} />
             </Routes>
         </Router>
     );

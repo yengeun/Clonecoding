@@ -1,0 +1,109 @@
+.order-lookup {
+    text-align: center;
+    h1 {
+        margin-top: 6%;
+        padding-left: 10%;
+        text-align: left;
+        font-size: 2.5rem;
+        margin-bottom: 20px;
+    }
+
+    .order-lookup-content {
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        padding: 20px;
+        gap: 30px;
+
+
+        .login-section, .order-number-section {
+            width: 300px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-left: 10%;
+
+            h2 {
+                font-size: 1.5rem;
+                margin-bottom: 10px;
+            }
+            p{
+                color:#00000f;
+                font-size: 14px;
+                margin-top: 0;
+                margin-left: 0;
+            }
+            .input-group{
+                margin-top: 20px;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                margin-bottom: 10px;
+
+                input {
+                    font-size: 14px;;
+                    width: 250px;
+                    padding: 20px;
+                    border: 1px solid #636161;
+                    border-radius: 8px;
+                    margin-bottom: 20px;
+                }
+
+                button {
+                    margin-top: 5px;
+                    margin-left: 17%;
+                    position: absolute;
+                    background: none;
+                    border: none;
+                    font-size: 1.2rem;
+                    cursor: pointer;
+                }
+            }
+            
+
+            .options {
+                display: flex;
+                align-items: center;
+                gap: 5px;
+                margin-bottom: 10px;
+
+                label {
+                    margin:0;
+                    font-size: 0.9rem;
+                }
+            }
+
+            a {
+                
+                margin-left: 15%;;
+                color: #0071e3;
+                font-size: 0.9rem;
+                text-decoration: none;
+            }
+
+            .continue-btn {
+                width: 300px;
+                padding: 20px;
+                background-color: #0071e3;
+                color: #fff;
+                border: none;
+                border-radius: 10px;
+                cursor: pointer;
+                margin-bottom: 10px;
+                margin-left: 45px;
+            }
+        }
+       .login-section .input-group input {
+            width: 500px; // Increased width for input in login-section
+        }
+      
+        .divider {
+            width: 1px;
+            background-color: #636161;
+            height: auto;
+            align-self: stretch;
+            margin-left: 20px; 
+           
+        }
+    }
+}
