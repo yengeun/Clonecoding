@@ -45,7 +45,7 @@ function Footer2() {
                 </p>
                 <p>보다 오래 안심할 수 있도록. 이제 AppleCare+가 우발적인 손상에 대한 수리 서비스를 횟수 제한 없이 제공합니다.
                 </p>
-                <hr style={{ marginLeft:'19%', width: '55%', color:'#00000029' }} /> 
+                <hr style={{ marginLeft:'19%', width: '70%', color:'#00000029' }} /> 
             </div>
             <div className="section2">
                 <p><FaApple size={20} color={'#000000e0'} /><IoIosArrowForward size={15} style={{ marginLeft: '8px', marginRight:'15px' }}/> Apple Store 온라인</p>
@@ -133,7 +133,7 @@ function Footer2() {
                     </div>
                 </div>
                 <p>다양한 쇼핑 방법:<span style ={{ marginLeft:'4px', textDecoration: 'underline', color:'#06c'}}>Apple Store를 방문</span>하거나,<span style ={{ marginLeft: '4px', textDecoration: 'underline', color:'#06c'}}>리셀러</span>를 찾아보거나, 080-330-8877번으로 전화하세요.</p>
-                <hr style={{ marginLeft:'19%', width: '55%', color:'#00000029' }} /> 
+                <hr style={{ marginLeft:'19%', width: '70%', color:'#00000029' }} /> 
                 <div className="copyright">
                     <p className="p1">Copyright © 2024 Apple Inc. 모든 권리 보유.</p>
                     <p className="p2"> 개인정보 처리방침 | 약관 | 판매 및 환불 | 법적 고지 | 사이트 맵</p>
