@@ -21,7 +21,7 @@
             display: flex;
             flex-direction: column;
             align-items: center;
-            margin-left: 10%;
+           
 
             h2 {
                 font-size: 1.5rem;
@@ -50,8 +50,8 @@
                 }
 
                 button {
-                    margin-top: 5px;
-                    margin-left: 17%;
+                    margin-top: 10px;
+                    margin-left: 30%;
                     position: absolute;
                     background: none;
                     border: none;
@@ -96,14 +96,16 @@
        .login-section .input-group input {
             width: 500px; // Increased width for input in login-section
         }
-      
+        .login-section {
+            margin-left: 10px; // Shift order-number-section slightly to the right
+        }
+
         .divider {
             width: 1px;
-            background-color: #636161;
+            background-color: #ddd;
             height: auto;
             align-self: stretch;
-            margin-left: 20px; 
-           
+            margin-left: 150px; // Adjust this value to move the divider to the right
         }
     }
 }

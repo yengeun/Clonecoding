@@ -1,7 +1,8 @@
 import React from 'react';
 import Navbar from './Navbar'; 
 import '../assets/Order.scss'
-
+import { FiPlusCircle } from "react-icons/fi";
+import { IoArrowForwardCircleOutline } from "react-icons/io5";
 const Order = () => {
     return (
         <div className="order-lookup">
@@ -12,7 +13,7 @@ const Order = () => {
                     <h2>Apple ID로 로그인하세요.</h2>
                     <div className="input-group">
                         <input type="text" placeholder="이메일 또는 전화번호" />
-                        <button>&#x2192;</button>
+                        <button><IoArrowForwardCircleOutline /></button>
                     </div>
                     <div className="options">
                         <input type="checkbox" id="rememberId" />
@@ -29,7 +30,7 @@ const Order = () => {
                         <input type="text" placeholder="이메일 주소" />
                     </div>
                     <button className="continue-btn">계속</button>
-                    <a href="#">주문 번호 찾는 방법</a>
+                    <a href="#">주문 번호 찾는 방법<FiPlusCircle style={{ marginLeft: '5px', marginBottom: '-2px'}}/></a>
                 </div>
             </div>
         </div>
