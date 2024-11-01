@@ -1,0 +1,140 @@
+.icloud-page {
+    background-color: #fff;
+    text-align: center;
+    margin:-6%;
+    .header {
+        position: fixed;
+        top: 0;
+        width: 100%;
+        background-color: rgba(251, 251, 253, .5);
+        padding: 10px;
+        height: 35px;
+        z-index: 10;
+        display: flex;
+        font-size: 24px;
+        font-weight: bold;
+    
+        svg{
+            background: transparent;
+        }
+        .header-icon {
+            background-color: transparent;
+            position: absolute;
+            margin-top: 3px;
+            margin-left: 96%;
+            font-size: 28px;
+            cursor: pointer;
+        }
+    }
+  
+    .content {
+       margin: 0;
+      background-color: #fff;
+      padding-top: 100px; // Offset content below fixed header
+      text-align: center;
+    }
+  
+    .video-container {
+        background-color: #fff;
+      display: flex;
+      justify-content: center;
+      margin-top: 20px;
+  
+      .background-video {
+        width: 450px;
+        border-radius: 50%;
+      }
+    }
+  
+    .title {
+      background-color: #fff;
+      font-size: 130px;
+      font-weight: bold;
+      margin-top: 10px;
+      margin-bottom: 30px;
+      color: rgba(0, 0, 0, 0.88);
+    }
+  
+    .login-button {
+      margin-bottom: 10px;
+      padding: 10px 50px;
+      background-color: #000;
+      color: #fff;
+      border: none;
+      border-radius: 20px;
+      font-size: 16px;
+      font-weight: bold;
+      cursor: pointer;
+    }
+  
+    .subtitle {
+        background-color: #fff;
+      font-size: 35px;
+      font-weight: 800;
+      color:  rgba(0, 0, 0, 0.88);
+      line-height: 1.2;
+    }
+  
+    .card-container {
+     background-color: #fff;
+      display: flex;
+      justify-content: center;
+      gap: 50px;
+      margin-top: 80px;
+      padding: 0 20px;
+      margin-bottom: 10%;
+    
+  
+    .card {
+      background-color: #fff;
+      border-radius: 12px;
+      box-shadow: 0 10px 50px rgba(0, 0, 0, 0.1);
+      padding: 40px;
+      width: 315px;
+      height: 400px;
+      text-align: left;
+
+  
+      .card-icon {
+        background-color: #fff;
+        width: 100%;
+        height: auto;
+        border-radius: 8px;
+        margin-bottom: 15px;
+      }
+      .card-icon2 {
+        background-color: #fff;
+        width: 60%;
+        margin-left: 20%;
+        height: auto;
+        border-radius: 8px;
+        margin-bottom: 15px;
+      }
+     
+      h3 {
+        background-color: #fff;
+        font-size: 25px;
+        font-weight: bold;
+        color: #000;
+        margin-bottom: 10px;
+      }
+  
+      p {
+        margin-left: 5%;
+        background-color: #fff;
+        font-size: 16px;
+        color: #00000f;
+        font-weight: 500;
+        line-height: 1.4;
+      }
+  
+      a {
+        color: #0071e3;
+        text-decoration: none;
+        background-color: transparent;
+      }
+
+    }
+  }
+
+}
