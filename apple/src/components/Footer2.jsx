@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom';
 import '../assets/Footer.scss';
 import { FaApple } from "react-icons/fa";
 import { IoIosArrowForward } from "react-icons/io";
@@ -128,7 +129,7 @@ function Footer2() {
                             <li>윤리 및 규정 준수</li>
                             <li>이벤트</li>
                             <li>일자리 창출</li>
-                            <li>Apple 연락처</li>
+                            <li><Link to="/Connection" >Apple 연락처</Link></li>
                         </ul>
                     </div>
                 </div>

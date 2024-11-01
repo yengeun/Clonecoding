@@ -12,7 +12,8 @@ import Main7 from './components/Main7';
 import Footer from './components/Footer';
 import Footer2 from './components/Footer2';
 import HeaderShopping from './components/HeaderShopping';
-import Order from './components/Order'; // Import the OrderLookup component
+import Order from './components/Order'; 
+import Connection from './components/Connection';
 
 const App = () => {
     return (
@@ -35,10 +36,9 @@ const App = () => {
                     </>
                 } />
                 
-                {/* HeaderShopping page Route */}
+            
                 <Route path="/HeaderShopping" element={<HeaderShopping />} />
-                
-                {/* OrderLookup page Route */}
+                <Route path="/Connection" element={<Connection />} />
                 <Route path="/Order" element={<Order />} />
             </Routes>
         </Router>

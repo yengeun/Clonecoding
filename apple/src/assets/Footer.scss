@@ -60,6 +60,20 @@ p{
         margin:0 0 15px 0;
         text-align: left;
         color:#000000b8;
+        cursor: pointer;
+    }
+    .section ul li:hover {
+        text-decoration: underline; /* Add underline on hover */
+    }
+    .section ul li a {
+        margin-left: inherit;
+        color: inherit; /* Inherit color from li */
+        text-decoration: none; /* Remove default underline */
+        cursor: inherit; /* Inherit cursor style from li */
+    }
+    
+    .section ul li:hover a {
+        text-decoration: underline; /* Add underline on hover for links */
     }
 
     p {
