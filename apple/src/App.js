@@ -13,7 +13,7 @@ import Footer from './components/Footer';
 import Footer2 from './components/Footer2';
 import HeaderShopping from './components/HeaderShopping';
 import Order from './components/Order'; 
-import Connection from './components/Connection';
+import Cloud from './components/Cloud';
 
 const App = () => {
     return (
@@ -38,7 +38,7 @@ const App = () => {
                 
             
                 <Route path="/HeaderShopping" element={<HeaderShopping />} />
-                <Route path="/Connection" element={<Connection />} />
+                <Route path="/Cloud" element={<Cloud />} />
                 <Route path="/Order" element={<Order />} />
             </Routes>
         </Router>

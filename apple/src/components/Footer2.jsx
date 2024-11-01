@@ -72,7 +72,7 @@ function Footer2() {
                         <ul>
                             <li>Apple 계정 관리</li>
                             <li>Apple Store 계정</li>
-                            <li style={{marginBottom : '40px'}}>iCloud.com</li>
+                            <li style={{marginBottom : '40px'}}><Link to="/Cloud">iCloud.com</Link></li>
                         </ul>
                         <h4>엔터테인먼트</h4>
                         <ul>
@@ -129,7 +129,7 @@ function Footer2() {
                             <li>윤리 및 규정 준수</li>
                             <li>이벤트</li>
                             <li>일자리 창출</li>
-                            <li><Link to="/Connection" >Apple 연락처</Link></li>
+                            <li>Apple 연락처</li>
                         </ul>
                     </div>
                 </div>
