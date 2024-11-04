@@ -1,13 +1,18 @@
-import React from 'react';
+import React, {useState} from 'react';
 import { FaApple } from "react-icons/fa";
 import { IoIosSearch } from "react-icons/io";
 import { IoBagOutline } from "react-icons/io5";
 import '../assets/Navbar.scss';
 import '../assets/common.scss';
 
+
 const Navbar = () => {
+    const [isDropdownActive, setIsDropdownActive] = useState(false);
+
+    const handleMouseEnter = () => setIsDropdownActive(true);
+    const handleMouseLeave = () => setIsDropdownActive(false);
     return (
-        <header className="nav">
+        <header className={`nav ${isDropdownActive ? 'blur-active' : ''}`}>
             <div className="nav__inner">
                 <div className="nav__logo">
                     <a href="#"><FaApple size={20} /></a>
@@ -18,7 +23,7 @@ const Navbar = () => {
                             <a href="#">스토어</a>
                             <div className="dropdown">
                                 <div className="dropdown-menu">
-                                    <div className="dropdown-column1">
+                                    <div className="dropdown-column dropdown-column1">
                                         <h4>쇼핑하기</h4>
                                         <ul>
                                             <li>최신 제품 쇼핑하기</li>
@@ -49,18 +54,38 @@ const Navbar = () => {
                             <a href="#">MAC</a>
                             <div className="dropdown">
                                 <div className="dropdown-menu">
-                                    <div className="dropdown-column2">
-                                        <h3>MAC</h3>
+                                    <div className="dropdown-column dropdown-column2">
+                                        <h4>MAC 살펴보기</h4>
                                         <ul>
-                                            <li>전체보기</li>
-                                            <li>백팩</li>
-                                            <li>숄더 / 토트백</li>
-                                            <li>메신저 / 크로스백</li>
-                                            <li>슬링백 / 허쉘</li>
-                                            <li>모자</li>
-                                            <li>양말</li>
-                                            <li>테니스</li>
-                                            <li>기타</li>
+                                            <li>Mac 모두 살펴보기</li>
+                                            <li>MacBook Air</li>
+                                            <li>MacBook Pro</li>
+                                            <li>iMac</li>
+                                            <li>Mac mini</li>
+                                            <li>Mac Studio</li>
+                                            <li>Mac Pro</li>
+                                            <li>디스플레이</li>
+                                            <h6>Mac 비교하기</h6>
+                                            <h6>PC에서 Mac으로 갈아타기</h6>
+                                        </ul>
+                                        <h4>MAC 쇼핑하기</h4>
+                                        <ul>
+                                            <li>Mac 쇼핑하기</li>
+                                            <li>Mac 액세서리</li>
+                                            <li>Apple Trade In</li>
+                                            <li>할부 방식</li>
+                                        </ul>
+                                        <h4>그 외 Mac관련 항목</h4>
+                                        <ul>
+                                            <li>Mac 지원</li>
+                                            <li>Mac을 위한 AppleCare+</li>
+                                            <li>macOS Sequoia</li>
+                                            <li>Apple Intelligence</li>
+                                            <li>Apple이 만든 앱</li>
+                                            <li>연속성</li>
+                                            <li>iCloud+</li>
+                                            <li>Mac과 비즈니스</li>
+                                            <li>교육</li>
                                         </ul>
                                     </div>
                                 </div>
@@ -70,7 +95,7 @@ const Navbar = () => {
                             <a href="#">iPad</a>
                             <div className="dropdown">
                                 <div className="dropdown-menu">
-                                    <div className="dropdown-column3">
+                                    <div className="dropdown-column dropdown-column3">
                                         <h3>iPad</h3>
                                         <ul>
                                             <li>전체보기</li>
@@ -92,7 +117,7 @@ const Navbar = () => {
                             <a href="#">iPhone</a>
                             <div className="dropdown">
                                 <div className="dropdown-menu">
-                                    <div className="dropdown-column4">
+                                    <div className="dropdown-column dropdown-column4">
                                         <h3>iPhone</h3>
                                         <ul>
                                             <li>테니스</li>
@@ -106,7 +131,7 @@ const Navbar = () => {
                             <a href="#">Watch</a>
                             <div className="dropdown">
                                 <div className="dropdown-menu">
-                                    <div className="dropdown-column5">
+                                    <div className="dropdown-column dropdown-column5">
                                         <h3>Watch</h3>
                                         <ul>
                                             <li>AirPods</li>
@@ -120,7 +145,7 @@ const Navbar = () => {
                             <a href="#">AirPods</a>
                             <div className="dropdown">
                                 <div className="dropdown-menu">
-                                    <div className="dropdown-column6">
+                                    <div className="dropdown-column dropdown-column6">
                                         <h3>AirPods</h3>
                                         <ul>
                                             <li>테니스</li>
@@ -134,7 +159,7 @@ const Navbar = () => {
                             <a href="#">TV 및 홈</a>
                             <div className="dropdown">
                                 <div className="dropdown-menu">
-                                    <div className="dropdown-column7">
+                                    <div className="dropdown-column dropdown-column7">
                                         <h3>TV 및 홈</h3>
                                         <ul>
                                             <li>테니스</li>
@@ -148,7 +173,7 @@ const Navbar = () => {
                             <a href="#">엔터테인먼트</a>
                             <div className="dropdown">
                                 <div className="dropdown-menu">
-                                    <div className="dropdown-column8">
+                                    <div className="dropdown-column dropdown-column8">
                                         <h3>엔터테인먼트</h3>
                                         <ul>
                                             <li>테니스</li>
@@ -162,7 +187,7 @@ const Navbar = () => {
                             <a href="#">액세서리</a>
                             <div className="dropdown">
                                 <div className="dropdown-menu">
-                                    <div className="dropdown-column9">
+                                    <div className="dropdown-column dropdown-column9">
                                         <h3>액세서리</h3>
                                         <ul>
                                             <li>테니스</li>
@@ -176,7 +201,7 @@ const Navbar = () => {
                             <a href="#">고객지원</a>
                             <div className="dropdown">
                                 <div className="dropdown-menu">
-                                    <div className="dropdown-column10">
+                                    <div className="dropdown-column dropdown-column10">
                                         <h3>고객지원</h3>
                                         <ul>
                                             <li>테니스</li>
