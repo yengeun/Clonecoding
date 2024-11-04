@@ -1,55 +1,101 @@
-.navbar {
+/* header */
+.nav {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  padding: 10px 0;
+  background: transparent;
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  font-family: 'Pretendard-Regular';
-  z-index: 1000; /* Navbar가 오버레이 위에 표시되도록 설정 */
+  justify-content: center;
 
-
-  .navbar-menu ul {
+  &__inner {
+    width: 100%;
+    max-width: 1200px;
     display: flex;
-    list-style: none;
-    gap: 10px;
-    position: relative;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    box-sizing: border-box;
+  }
 
-    li {
+  &__logo {
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start; // Align logo to the left
+  }
+
+  &__menu {
+    width: 60%;
+    text-align: center;
+
+    ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      display: flex;
+      justify-content: center;
+    }
+
+    .menu-item {
+      margin: 0 15px;
       position: relative;
 
       a {
+        padding: 10px 20px;
+        transition: background-color 0.3s, border-bottom 0.3s;
         text-decoration: none;
-        color: #1d1d1f;
-        font-size: 12px;
+        color: #fff;
+        font-weight: bold;
+        position: relative;
 
-        &:hover {
-          color: #0071e3; /* 호버 시 텍스트 색상 변경 */
-          transition: color 0.3s ease;
+        &:hover::after {
+          width: 100%;
+        }
+
+        &::after {
+          content: "";
+          display: block;
+          width: 0;
+          height: 2px;
+          background: #fff;
+          transition: width 0.3s;
+          position: absolute;
+          bottom: -5px;
+          left: 50%;
+          transform: translateX(-50%);
         }
       }
 
-      &.has-dropdown {
+      .dropdown {
+        display: none;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 100%;
+        background-color: #fff;
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        z-index: 10;
+        padding: 20px 0;
+
         .dropdown-menu {
-          display: none;
-          position: absolute;
-          top: 100%;
-          left: 0;
-          padding: 20px;
-          width: 100%;
-          background-color: #fff; /* 드롭다운 배경색 */
           display: flex;
-          justify-content: space-between;
-          z-index: 1100; /* 드롭다운 메뉴가 오버레이보다 위로 오도록 설정 */
-          opacity: 0;
-          visibility: hidden;
-          transition: opacity 0.3s ease, visibility 0.3s ease;
+          justify-content: space-around;
+          padding: 0;
+          margin: 0;
+          list-style: none;
 
           .dropdown-column {
             flex: 1;
-            padding-right: 20px;
+            padding: 0 20px;
+            display: none;
 
-            h4 {
-              font-size: 16px;
-              margin-bottom: 15px;
-              font-weight: bold;
+            h3 {
+              font-size: 18px;
+              margin-bottom: 10px;
             }
 
             ul {
@@ -58,55 +104,34 @@
               margin: 0;
 
               li {
-                margin-bottom: 12px;
+                margin-bottom: 8px;
                 font-size: 14px;
-
-                a {
-                  color: #333;
-                  text-decoration: none;
-
-                  &:hover {
-                    color: #0071e3; /* 링크 호버 시 색상 변경 */
-                  }
-                }
               }
             }
           }
         }
+      }
 
-        /* Hover 시 드롭다운 메뉴 활성화 */
-        &:hover .dropdown-menu {
-          display: flex;
-          opacity: 1;
-          visibility: visible;
-        }
-
-        /* 배경 블러 처리: Hover 시 오버레이 활성화 */
-        &:hover ~ .overlay {
-          backdrop-filter: blur(10px); /* Hover 시 배경 블러 처리 */
-          background-color: rgba(255, 255, 255, 0.5); /* 배경에 약간의 투명도 추가 */
-        }
+      &:hover .dropdown {
+        display: block;
       }
     }
   }
-}
 
-/* 배경 블러 처리를 위한 오버레이 */
-.overlay {
-  position: fixed;
-  top: 100px; /* 헤더 아래부터 오버레이가 적용되도록 설정 */
-  left: 0;
-  width: 100%;
-  height: calc(100% - 100px); /* 헤더 높이를 제외한 나머지 영역에 블러 효과 적용 */
-  z-index: 500; /* 오버레이가 드롭다운 메뉴 아래에 위치 */
-  backdrop-filter: blur(0); /* 기본 상태에서 블러 없음 */
-  background-color: rgba(255, 255, 255, 0); /* 기본 상태에서 배경색 없음 */
-  transition: backdrop-filter 0.3s ease, background-color 0.3s ease;
-  pointer-events: none; /* 오버레이가 클릭을 방해하지 않도록 설정 */
-}
+  &__icons {
+    width: 20%;
+    text-align: right;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
 
-.overlay.blur {
-  backdrop-filter: blur(10px); /* Hover 시 배경 블러 처리 */
-  background-color: rgba(255, 255, 255, 0.5); /* 배경에 약간의 투명도 추가 */
-}
+    a {
+      margin-left: 15px;
+    }
 
+    img {
+      width: 24px;
+      height: 24px;
+    }
+  }
+}
